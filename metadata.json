@@ -1,0 +1,6 @@
+{
+  "name": "Discord Store Bot & Web Panel",
+  "description": "Discord store bot and web management control panel for managing products, stock, orders, and announcements.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

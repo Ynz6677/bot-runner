@@ -1,6 +1,13 @@
 {
-  "name": "railway-deploy",
+  "name": "toko-railway",
+  "private": true,
   "version": "1.0.0",
-  "main": "start.js",
-  "scripts": {"start":"node start.js"}
+  "description": "Menjalankan bot Discord dan Panel Toko sebagai satu service Railway, berbagi satu database SQLite lewat Volume.",
+  "workspaces": ["bot", "panel"],
+  "engines": { "node": ">=18.0.0" },
+  "scripts": {
+    "dev": "node start.js",
+    "build": "echo 'Build OK'",
+    "start": "node start.js"
+  }
 }

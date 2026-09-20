@@ -4,6 +4,7 @@
   "embed_color_danger": "#ED4245",
   "embed_color_vouch": "#F97316",
   "currency_prefix": "Rp",
+
   "buttons": {
     "tambahkan": { "label": "TAMBAHKAN", "emoji": "➕", "style": "Primary" },
     "restok": { "label": "Restok", "emoji": "📦", "style": "Primary" },
@@ -20,6 +21,7 @@
     "batal_export": { "label": "Batal", "emoji": "🚫", "style": "Secondary" },
     "berikan_vouch": { "label": "Berikan Vouch", "emoji": "🌟", "style": "Primary" }
   },
+
   "messages": {
     "toko_open_title": "🟢 TOKO OPEN",
     "toko_open_desc": "Selamat datang! Sekarang **TOKO OPEN**, silakan order ya~",
@@ -31,11 +33,13 @@
     "vouch_ticket_text": "Jangan lupa kasih rating yaa🌟",
     "ticket_locked_notice": "🔒 Channel ini sudah dikunci (tidak bisa chat lagi). Channel akan otomatis terhapus setelah kamu memberikan vouch."
   },
+
   "status_labels": {
     "MENUNGGU": "MENUNGGU KONFIRMASI",
     "BERHASIL": "BERHASIL",
     "DIBATALKAN": "DIBATALKAN"
   },
+
   "timeout_order_minutes": 60,
   "order_expire_check_interval_ms": 60000
 }

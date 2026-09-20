@@ -1,0 +1,19 @@
+{
+  "name": "panel-toko",
+  "version": "1.0.0",
+  "description": "Panel kontrol & pemantauan untuk bot Discord Store. Read-only kecuali: buka/tutup toko, restock, kirim pengumuman.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "echo 'Build OK'",
+    "start": "node server.js"
+  },
+  "engines": { "node": ">=18.0.0" },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,17 @@
+<%- include('partials/head') %>
+<div class="masuk-bungkus">
+  <div class="panel">
+    <h2>Masuk ke Panel</h2>
+    <p class="sub">Panel ini hanya untuk kamu (admin toko). Kredensial diatur lewat .env di server.</p>
+    <% if (pesan) { %><div class="pesan"><%= pesan %></div><% } %>
+    <form method="post" action="/masuk">
+      <label class="baris"><span>Username</span><input type="text" name="username" placeholder="admin" required autofocus></label>
+      <label class="baris"><span>Kata sandi</span><input type="password" name="password" placeholder="admin123" required></label>
+      <button class="tombol penuh" type="submit">Masuk</button>
+    </form>
+    <div style="margin-top:14px;padding:10px;background:rgba(255,255,255,0.05);border-radius:6px;font-size:12px;color:#94a3b8;text-align:center">
+      Default kredensial: <code style="color:#f1f5f9">admin</code> / <code style="color:#f1f5f9">admin123</code>
+    </div>
+  </div>
+</div>
+<%- include('partials/foot') %>
