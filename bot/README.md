@@ -1,0 +1,3 @@
+# Bot
+
+Discord bot component.
